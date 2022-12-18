@@ -63,3 +63,14 @@ YouTube for a given tag/search query in a paginated response.
    ```
    docker run -p 5000:5000 <docker-image-name>
    ```
+### Key Features:- 
+<ol>
+<li> The API fetches latest videos sorted in reverse chronological order of their publishing date-time from YouTube
+<li> Server calls the YouTube API continuously in background (async) with an interval of 1 min for fetching the latest videos for a predefined search query and stores the data of videos in a database.
+<li> There's a GET API which returns the stored video data in a paginated response sorted in descending order of published datetime.
+<li> Also has a basic search API to search the stored videos using their title and description.
+<li> The project is dockerized and optimised.
+<li> Tried to optimise the search api, so that it's able to search videos containing partial match for the search query using regex.
+<li> The fetching happen for a predefined query, in my case, Latest songs (has high frequency of video uploads).
+<li> Properly explained the code using comments whereever possible.
+<li> Used meaningful variable/function names, and maintained indentation and code style.
