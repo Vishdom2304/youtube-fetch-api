@@ -51,7 +51,7 @@ YouTube for a given tag/search query in a paginated response.
     * Monitors and restarts node server when source changes
     
 
-### Docker Image Creation
+## Docker Image Creation
 
 1. Get [Docker](https://docs.docker.com/desktop/install/windows-install/)
 2. Run the application
@@ -63,7 +63,8 @@ YouTube for a given tag/search query in a paginated response.
    ```
    docker run -p 5000:5000 <docker-image-name>
    ```
-### Key Features:- 
+## Key Features:- 
+
 <ol>
 <li> The API fetches latest videos sorted in reverse chronological order of their publishing date-time from YouTube
 <li> Server calls the YouTube API continuously in background (async) with an interval of 1 min for fetching the latest videos for a predefined search query and stores the data of videos in a database.
