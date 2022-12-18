@@ -1,0 +1,22 @@
+{
+  "name": "youtube-fetch-api",
+  "version": "1.0.0",
+  "description": "An API to fetch latest videos sorted in reverse chronological order of publish date",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vishwas Vijay",
+  "license": "ISC",
+  "dependencies": {
+    "apis": "^0.1.2",
+    "body-parser": "^1.20.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "googleapis": "^109.0.1",
+    "mongoose": "^6.8.0",
+    "node-cron": "^3.0.2",
+    "nodemon": "^2.0.20"
+  }
+}
