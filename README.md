@@ -55,7 +55,7 @@ YouTube for a given tag/search query in a paginated response.
 
 1. Get [Docker](https://docs.docker.com/desktop/install/windows-install/)
 2. Run the application
-3. Execute the following command in server directory
+3. Execute the following command in command prompt
     ```
     docker build "./" -t "<docker-image-name>"
     ```
